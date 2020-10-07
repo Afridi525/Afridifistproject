@@ -1,0 +1,88 @@
+import java.util.Scanner;
+
+public class IfStatement {
+
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//int num=5;
+//if(num%2==0)
+//{
+//	System.out.println("even number");
+//}                                        ------------------------even or odd
+//else
+//	System.out.println("odd number");
+		
+		
+		
+		
+//		int age=12;
+//		if(age>=18)
+//		System.out.println("eligible to vote"); --------------------------eligible to vote or not
+//		else
+//			System.out.println("not eligible");
+		
+//		
+//		int input;
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("enter input number");
+//		input=sc.nextInt();
+//		
+//		if(input > 0)				
+//			System.out.println("positive");   //------------------------positive or negative number
+//			else if(input<0)
+//				System.out.println("negative");
+//			else
+//				System.out.println("zero");
+//		
+//		
+		
+		
+		
+		
+//		int i,j,k;
+//		Scanner in=new Scanner(System.in);
+//		
+//	System.out.println("enter first number");
+//	i=in.nextInt();
+//	System.out.println("enter second number");
+//	j=in.nextInt();
+//	System.out.println("enter third number");                //which is greater
+//	k=in.nextInt();
+//	
+//	if(i>j && i>k)
+//		System.out.println("i is greater");
+//	else if(j>k)
+//		System.out.println("j is greatre");
+//	else
+//		System.out.println("k is greater");
+		
+		
+		
+		
+		
+		
+		Scanner in=new Scanner(System.in);
+		
+System.out.println("enter  number");
+	int day=in.nextInt();
+	System.out.println(getDayName(day));
+}
+	public static String getDayName(int day)
+	{
+		String dayName="";
+		switch(day) {
+		case 1: dayName="Monday"; break;
+		case 2: dayName="Tuesday"; break;
+		case 3: dayName="Wednesday"; break;		
+		case 4: dayName="ThrusdzyS"; break;
+
+		
+
+		}
+		return dayName;
+	}
+		
+	}
+		
+
+
